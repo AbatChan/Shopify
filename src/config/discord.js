@@ -1,7 +1,7 @@
 module.exports = (app) => {
 	return {
 		prod: {
-			token: 'YOUR_TOKEN',
+			token: 'MTAzODk2MDMyOTcxNzE5ODk2OA.G2fbAX.EJaI3MNbFe7hQzTXDG_1BDthSl1Lt2yB_yHe6A',
 		},
 
 		prefix: '!',

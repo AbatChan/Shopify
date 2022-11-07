@@ -2,6 +2,7 @@ module.exports = (app) => {
 	return {
 		async login(client, token) {
 			return await client.login(token);
+
 		},
 
 		disconnect(client) {
@@ -14,6 +15,8 @@ module.exports = (app) => {
 				} catch {}
 			};
 		},
+
+	
 
 		loadIntents() {
 			[
